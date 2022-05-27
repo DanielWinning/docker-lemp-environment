@@ -1,0 +1,12 @@
+{
+    "name": "danielwinning/docker-lemp-environment",
+    "description": "A simple LEMP development environment.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Daniel Winning",
+            "email": "daniel@winningwebdesign.co.uk"
+        }
+    ],
+    "require": {}
+}
