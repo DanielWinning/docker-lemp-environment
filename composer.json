@@ -1,7 +1,7 @@
 {
     "name": "danielwinning/docker-lemp-environment",
     "description": "A simple LEMP development environment.",
-    "type": "library",
+    "type": "project",
     "authors": [
         {
             "name": "Daniel Winning",
@@ -9,5 +9,6 @@
         }
     ],
     "license": "MIT",
+    "minimum-stability": "stable",
     "require": {}
 }
