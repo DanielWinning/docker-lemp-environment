@@ -20,3 +20,13 @@ docker-compose run --rm composer <command>
 ./dc my-custom-cli-script
 ./dc create-project laravel/laravel
 ```
+
+### Using this as a scaffold
+
+```
+composer create-project danielwinning/docker-lemp-environment ProjectName
+cd ProjectName
+docker-compose up --build
+```
+
+Then you can add a file at `src/public/index.php` and visit `http://localhost` to see the server running.
