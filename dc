@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+
+$command = "docker-compose run --rm composer ";
+
+foreach ($argv as $arg) {
+    $command .= $arg === "./dc" ? "" : $arg . " ";
+}
+
+$command .= ".";
+
+shell_exec($command);
