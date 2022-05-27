@@ -8,5 +8,6 @@
             "email": "daniel@winningwebdesign.co.uk"
         }
     ],
+    "license": "MIT",
     "require": {}
 }
