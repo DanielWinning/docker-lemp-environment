@@ -7,8 +7,4 @@ foreach ($argv as $arg) {
     $command .= $arg === "./dc" ? "" : $arg . " ";
 }
 
-if (str_contains("create-project", $command)) {
-    $command .= " .";
-}
-
 shell_exec($command);
