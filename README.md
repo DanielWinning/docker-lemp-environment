@@ -14,8 +14,9 @@ just use the usual command. It's a shortcut for:
 docker-compose run --rm composer <command>
 ```
 
+On a Mac/Linux you will probably need to run `chmod +x dc` inside the project directory before you can run these.
+
 ```
-./dc init
 ./dc update
 ./dc my-custom-cli-script
 ./dc create-project laravel/laravel
